@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class TaskAdapter (private var taskList: List<Task>) : RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
+class TaskAdapter (var taskList: List<Task>) : RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
     class TaskViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         private var tvTitle: TextView = view.findViewById(R.id.taskTitle)
         private var tvDetails: TextView = view.findViewById(R.id.taskDetails)
