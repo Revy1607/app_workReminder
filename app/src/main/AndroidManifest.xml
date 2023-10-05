@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.READ_CALENDAR"/>
     <uses-permission android:name="com.datnt.app_quanlycongviec.READ_DATABASE" />
     <uses-permission android:name="com.datnt.app_quanlycongviec.WRITE_DATABASE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
 
     <uses-permission
         android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
