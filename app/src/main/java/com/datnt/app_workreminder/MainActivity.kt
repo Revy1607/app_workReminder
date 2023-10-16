@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     private var runnable: Runnable? = null
     private var dataViewModel: DataViewModel? = null
     private val uri: Uri =
-        Uri.parse("content://com.datnt.app_quanlycongviec.TaskContentProvider/task")
+        Uri.parse("content://com.datnt.app_quanlycongviec.TaskContentProvider/taskTBL")
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
